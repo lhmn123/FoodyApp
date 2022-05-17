@@ -5,4 +5,5 @@
     <string name="sign_up_now"> Don\'t have an account? <u>SIGN UP NOW</u></string>
     <string name="policy">I agree to the <u>Temp &amp; Conditions and Privacy Policy</u></string>
     <string name="price"><strike>45000</strike></string>
+    <string name="login_error">This account is invalid</string>
 </resources>

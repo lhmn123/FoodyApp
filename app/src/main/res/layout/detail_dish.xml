@@ -20,15 +20,17 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="match_parent"
-        android:layout_height="201dp"
+        android:id="@+id/imageViewDish"
+        android:layout_width="413dp"
+        android:layout_height="205dp"
         android:layout_marginBottom="528dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/detail_dish" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/img_dish" />
 
     <TextView
         android:id="@+id/textViewDishName"
