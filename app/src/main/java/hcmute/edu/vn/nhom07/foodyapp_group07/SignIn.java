@@ -30,14 +30,19 @@ public class SignIn extends AppCompatActivity {
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String email = "lhmn@gmail.com";
-                String password = "lhmn";
-                if(edtEmail.getText().toString().equals(email) && edtPassWord.getText().toString().equals(password)){
-                    Intent intent = new Intent(SignIn.this, HomeActivity.class);
-                    startActivity(intent);
-                }
+//                String email = "lhmn@gmail.com";
+//                String password = "lhmn";
+//                if(edtEmail.getText().toString().equals(email) && edtPassWord.getText().toString().equals(password)){
+//                    Intent intent = new Intent(SignIn.this, HomeActivity.class);
+//                    startActivity(intent);
+//                }
 //                else{
 //                    Toast.makeText(getApplicationContext(),R.string.login_error, Toast.LENGTH_LONG).show();
+//                }
+//                if(edtEmail.getText().length() != 0 && edtPassWord.getText().length() != 0){
+//                    if(edtEmail.getText().toString().equals(email) && edtPassWord.getText().toString().equals(password)){
+//
+//                    }
 //                }
             }
         });
