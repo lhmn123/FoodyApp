@@ -3,6 +3,8 @@ package hcmute.edu.vn.nhom07.foodyapp_group07;
 import java.io.Serializable;
 
 public class Store implements Serializable {
+
+    private int storeID;
     private String storeName;
     private String storeImg;
     private double storeRate;
@@ -11,7 +13,8 @@ public class Store implements Serializable {
     private double storeDistance;
     private boolean isDeal;
 
-    public Store(String storeName, String storeImg, double storeRate, int storeReviews, String storeAddress, double storeDistance, boolean isDeal) {
+    public Store(int storeID, String storeName, String storeImg, double storeRate, int storeReviews, String storeAddress, double storeDistance, boolean isDeal) {
+        this.storeID = storeID;
         this.storeName = storeName;
         this.storeImg = storeImg;
         this.storeRate = storeRate;
@@ -19,6 +22,14 @@ public class Store implements Serializable {
         this.storeAddress = storeAddress;
         this.storeDistance = storeDistance;
         this.isDeal = isDeal;
+    }
+
+    public int getStoreID() {
+        return storeID;
+    }
+
+    public void setStoreID(int storeID) {
+        this.storeID = storeID;
     }
 
     public String getStoreName() {
