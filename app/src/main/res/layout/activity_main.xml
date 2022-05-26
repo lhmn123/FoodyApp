@@ -45,7 +45,6 @@
         android:layout_marginTop="28dp"
         android:clickable="true"
         android:linksClickable="true"
-        android:minHeight="48dp"
         android:singleLine="false"
         android:text="@string/sign_up_now"
         android:textColor="#ffffff"

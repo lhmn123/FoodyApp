@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="hcmute.edu.vn.nhom07.foodyapp_group07">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -13,13 +13,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity
-            android:name=".HomeActivity"
+            android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".SignIn"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".SignUp"
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailDishActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
